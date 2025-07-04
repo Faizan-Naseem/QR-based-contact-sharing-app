@@ -1,4 +1,5 @@
 {
+  
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
@@ -16,5 +17,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"]
+  "include": ["src", "src/**/*"]
+
 }
