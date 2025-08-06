@@ -96,7 +96,7 @@ END:VCARD`
                   name="name"
                   value={contactInfo.name}
                   onChange={handleInputChange}
-                  placeholder="John Doe"
+                  placeholder="Faizan naseem"
                   required
                 />
               </div>
@@ -108,7 +108,7 @@ END:VCARD`
                   name="phone"
                   value={contactInfo.phone}
                   onChange={handleInputChange}
-                  placeholder="+1 (555) 123-4567"
+                  placeholder="+91 999999999"
                   required
                 />
               </div>
@@ -120,7 +120,7 @@ END:VCARD`
                   name="email"
                   value={contactInfo.email}
                   onChange={handleInputChange}
-                  placeholder="john@example.com"
+                  placeholder="sample@example.com"
                 />
               </div>
 
@@ -153,7 +153,7 @@ END:VCARD`
                   name="website"
                   value={contactInfo.website}
                   onChange={handleInputChange}
-                  placeholder="https://johndoe.com"
+                  placeholder="https://example.com"
                 />
               </div>
 
@@ -215,11 +215,26 @@ END:VCARD`
               <h4>Modern</h4>
               <p>Works on all devices</p>
             </div>
-            <div className="benefit">
-              <span className="icon">💾</span>
+            <div className="benefit" id ="icon-direct">
+              <span className="icon" >💾</span>
               <h4>Direct Save</h4>
               <p>Saves to contacts app</p>
             </div>
+{/* //extra icons */}
+            <div className="benefit" id ="icon-direct">
+              <span className="icon" >💾</span>
+              <h4>Direct Save</h4>
+              <p>Saves to contacts app</p>
+            </div>
+            <div className="benefit" id ="icon-direct">
+              <span className="icon" >💾</span>
+              <h4>Direct Save</h4>
+              <p>Saves to contacts app</p>
+            </div>
+
+            
+{/* ... */}
+
           </div>
         </div>
       </footer>

@@ -259,6 +259,7 @@ body {
   margin-bottom: 1rem;
 }
 
+
 .benefit h4 {
   color: white;
   margin-bottom: 0.5rem;
@@ -269,6 +270,7 @@ body {
   color: rgba(255, 255, 255, 0.8);
   font-size: 0.9rem;
 }
+
 
 @media (max-width: 768px) {
   .header h1 {
